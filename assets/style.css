@@ -51,6 +51,7 @@ header > nav > ul > li > a {
 }
 
 main {
+  max-width: 100%;
   display: grid;
   padding: 100px 20px;
 }
@@ -66,15 +67,17 @@ main {
 }
 
 #p-main {
+  margin-top: 1.5rem;
   font-size: 20px;
   font-weight: 300;
 }
 
-.imagem-destaque img {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-  display: block;
+.imagem-section {
+  min-width: 410, 17px;
+  min-height: 424px;
+  display: flex;
+  justify-content: end;
+  margin: 752, 56px 182px;
 }
 
 .btn-primary, .btn-secondary {
